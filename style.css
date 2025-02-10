@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.display{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.game{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.you,.opponent,.score{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    border: 2px solid black;
+}
+.rock,.paper,.scissors{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 0 0 0;
+}
+.player,.computer{
+    border: 2px solid black;
+    width: 400px;
+}
+.versus{
+    font-size: 200px;
+}
+.rock-player,.paper-player,.scissors-player,.rock-computer,.paper-computer,.scissors-computer{
+    width: 0;
+}
+.dif{
+    margin-top: 15px;
+    font-size: 60px;
+}
+.yo,.op{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.move{
+    cursor: pointer;
+    font-size: 60px;
+    border: 2px solid black;
+}
+.again{
+    cursor: pointer;
+    font-size: 60px;
+    border: 2px solid black;
+    display: none;
+}
+.winner{
+    height: 40px;
+    text-align: center;
+    font-size: 40px;
+}
