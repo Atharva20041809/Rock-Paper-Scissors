@@ -1,4 +1,3 @@
-let a=Math.floor((Math.random())*3+1)
 let b=0
 let boxes=document.querySelectorAll("#you");
 let play=document.querySelector(".move");
@@ -22,6 +21,7 @@ boxes.forEach((box)=>{
     })
 })
 play.addEventListener("click",()=>{
+    let a=Math.floor((Math.random())*3+1)
     if(s=="rock-you"){
         b=1
         document.querySelector(".rock-player").style.width="400px";
